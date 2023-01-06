@@ -6,7 +6,7 @@
 #    By: atoof <atoof@student.hive.fi>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/31 13:20:08 by atoof             #+#    #+#              #
-#    Updated: 2022/11/22 18:38:00 by atoof            ###   ########.fr        #
+#    Updated: 2022/11/23 15:56:14 by atoof            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,9 @@ SRC = ft_strlcat.c ft_strlen.c ft_bzero.c ft_isalnum.c ft_isalpha.c \
 		ft_strnstr.c ft_calloc.c ft_strdup.c ft_substr.c ft_putchar_fd.c \
 		ft_putstr_fd.c ft_putnbr_fd.c ft_strjoin.c ft_putendl_fd.c \
 		ft_striteri.c ft_strmapi.c ft_itoa.c ft_strtrim.c ft_split.c
-SRC_B = ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c
+SRC_B = ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c \
+		ft_lstlast_bonus.c ft_lstadd_back_bonus.c ft_lstdelone_bonus.c \
+		ft_lstclear_bonus.c ft_lstiter_bonus.c ft_lstmap_bonus.c
 
 all: $(NAME)
 
